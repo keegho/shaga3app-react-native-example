@@ -66,7 +66,6 @@ class MyWeb extends Component {
               this.nativeShare(JSON.parse(event.nativeEvent.data))
             }}
           />
-          <Text onPress={()=> this.nativeShare({url:""})}>Share</Text>
         </SafeAreaView>
       </View>
     );
